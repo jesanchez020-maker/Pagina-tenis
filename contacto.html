@@ -1,1 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Finalizar compra | FootballZone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+        FOOTBALL<span>ZONE</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Tenis</a>
+        <a href="index.html#marcas">Marcas</a>
+        <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="cart-button">
+        🛒 <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+
+<section class="checkout-header">
+
+    <p class="section-label">
+        FOOTBALLZONE
+    </p>
+
+    <h1>
+        FINALIZA TU<br>
+        <span>COMPRA</span>
+    </h1>
+
+</section>
+
+
+<section class="checkout">
+
+
+    <div class="customer-form">
+
+        <h2>
+            DATOS DEL CLIENTE
+        </h2>
+
+        <form id="checkout-form">
+
+            <label>
+                Nombre completo
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                required
+                placeholder="Tu nombre"
+            >
+
+
+            <label>
+                Correo electrónico
+            </label>
+
+            <input
+                type="email"
+                id="correo"
+                required
+                placeholder="correo@ejemplo.com"
+            >
+
+
+            <label>
+                Teléfono
+            </label>
+
+            <input
+                type="tel"
+                id="telefono"
+                required
+                placeholder="55 1234 5678"
+            >
+
+
+            <label>
+                Dirección
+            </label>
+
+            <input
+                type="text"
+                id="direccion"
+                required
+                placeholder="Calle, número y colonia"
+            >
+
+
+            <label>
+                Método de pago
+            </label>
+
+            <select id="pago" required>
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+                <option value="Tarjeta">
+                    Tarjeta de crédito / débito
+                </option>
+
+                <option value="Transferencia">
+                    Transferencia bancaria
+                </option>
+
+                <option value="Efectivo">
+                    Pago en efectivo
+                </option>
+
+            </select>
+
+
+            <button
+                type="submit"
+                class="main-button checkout-button"
+            >
+                CONFIRMAR COMPRA
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <div class="order">
+
+        <h2>
+            TU PEDIDO
+        </h2>
+
+        <div id="order-items"></div>
+
+        <div class="total">
+
+            <span>
+                TOTAL
+            </span>
+
+            <strong id="order-total">
+                $0
+            </strong>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<div id="success-message" class="success-message">
+
+    <div class="success-box">
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <h2>
+            ¡COMPRA REALIZADA!
+        </h2>
+
+        <p>
+            Gracias por comprar en FootballZone.
+        </p>
+
+        <p>
+            Tu pedido ha sido registrado correctamente.
+        </p>
+
+        <a href="index.html" class="main-button">
+            VOLVER AL INICIO
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <div class="footer-logo">
+        FOOTBALL<span>ZONE</span>
+    </div>
+
+    <p>
+        Tu pasión. Tu juego. Tu nivel.
+    </p>
+
+    <p class="copyright">
+        © 2026 FootballZone
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
