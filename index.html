@@ -4,1545 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FutbolZone | Tenis de Fútbol</title>
+    <title>FootballZone | Tenis de Fútbol</title>
 
-    <style>
+    <link rel="stylesheet" href="style.css">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background: #f5f5f5;
-            color: #171717;
-        }
-
-        /* =========================
-           NAVBAR
-        ========================= */
-
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: #101010;
-            color: white;
-            box-shadow: 0 3px 15px rgba(0,0,0,.25);
-        }
-
-        .navbar {
-            max-width: 1200px;
-            margin: auto;
-            height: 75px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 25px;
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .logo span {
-            color: #00d95f;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        nav a:hover {
-            color: #00d95f;
-        }
-
-        .cart-button {
-            background: #00d95f;
-            border: none;
-            padding: 13px 20px;
-            border-radius: 8px;
-            color: white;
-            font-size: 15px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        .cart-button:hover {
-            background: #00b94f;
-            transform: translateY(-2px);
-        }
-
-        /* =========================
-           PAGINAS
-        ========================= */
-
-        .page {
-            display: none;
-            min-height: 80vh;
-        }
-
-        .page.active {
-            display: block;
-        }
-
-        /* =========================
-           HERO
-        ========================= */
-
-        .hero {
-            height: 520px;
-            background:
-                linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.65)),
-                url("https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1600&q=85");
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-        }
-
-        .hero-content {
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        .hero h1 {
-            font-size: 58px;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 span {
-            color: #00d95f;
-        }
-
-        .hero p {
-            font-size: 21px;
-            margin-bottom: 30px;
-        }
-
-        .main-button {
-            background: #00d95f;
-            color: white;
-            border: none;
-            padding: 16px 30px;
-            border-radius: 8px;
-            font-size: 17px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: .3s;
-        }
-
-        .main-button:hover {
-            transform: scale(1.05);
-            background: #00b94f;
-        }
-
-        /* =========================
-           SECCIONES
-        ========================= */
-
-        .section {
-            max-width: 1200px;
-            margin: auto;
-            padding: 70px 25px;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .section-title h2 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
-            color: #666;
-            font-size: 17px;
-        }
-
-        /* =========================
-           PRODUCTOS
-        ========================= */
-
-        .products {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 25px;
-        }
-
-        .product {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,.08);
-            transition: .3s;
-            position: relative;
-        }
-
-        .product:hover {
-            transform: translateY(-7px);
-            box-shadow: 0 12px 30px rgba(0,0,0,.15);
-        }
-
-        .product-image {
-            height: 220px;
-            background: #f1f1f1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        .product-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: .4s;
-        }
-
-        .product:hover img {
-            transform: scale(1.08);
-        }
-
-        .brand {
-            position: absolute;
-            top: 12px;
-            left: 12px;
-            background: #111;
-            color: white;
-            padding: 6px 10px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        .product-info {
-            padding: 20px;
-        }
-
-        .product-info h3 {
-            margin-bottom: 8px;
-            font-size: 18px;
-        }
-
-        .product-info p {
-            color: #777;
-            font-size: 14px;
-            margin-bottom: 12px;
-        }
-
-        .price {
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-
-        .add-button {
-            width: 100%;
-            padding: 12px;
-            background: #111;
-            color: white;
-            border: none;
-            border-radius: 7px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: .3s;
-        }
-
-        .add-button:hover {
-            background: #00d95f;
-        }
-
-        /* =========================
-           CATALOGO
-        ========================= */
-
-        .catalog-header {
-            padding: 55px 25px 25px;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .catalog-header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
-
-        .filters {
-            display: flex;
-            gap: 15px;
-            margin: 25px 0 40px;
-        }
-
-        .search {
-            flex: 1;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            font-size: 16px;
-        }
-
-        .filter {
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background: white;
-            font-size: 16px;
-        }
-
-        /* =========================
-           MARCAS
-        ========================= */
-
-        .brands {
-            background: #111;
-            color: white;
-            padding: 35px 20px;
-        }
-
-        .brands-container {
-            max-width: 1000px;
-            margin: auto;
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
-            font-size: 25px;
-            font-weight: bold;
-        }
-
-        .adidas {
-            color: white;
-        }
-
-        .nike {
-            font-style: italic;
-        }
-
-        .puma {
-            color: #ddd;
-        }
-
-        /* =========================
-           CONTACTO
-        ========================= */
-
-        .contact-container {
-            max-width: 850px;
-            margin: auto;
-            padding: 70px 25px;
-        }
-
-        .contact-box {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 5px 25px rgba(0,0,0,.08);
-        }
-
-        .contact-box h1 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .contact-box > p {
-            text-align: center;
-            color: #777;
-            margin-bottom: 30px;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 14px;
-            border: 1px solid #ddd;
-            border-radius: 7px;
-            font-size: 15px;
-        }
-
-        .form-group textarea {
-            height: 120px;
-            resize: vertical;
-        }
-
-        /* =========================
-           CONFIRMACION
-        ========================= */
-
-        .confirmation {
-            display: none;
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .confirmation.show {
-            display: block;
-        }
-
-        .check {
-            width: 90px;
-            height: 90px;
-            margin: auto;
-            background: #00d95f;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 50px;
-            margin-bottom: 25px;
-        }
-
-        .confirmation h2 {
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
-
-        .confirmation p {
-            color: #666;
-            margin-bottom: 10px;
-        }
-
-        .order-number {
-            font-weight: bold;
-            font-size: 20px;
-            margin: 20px;
-        }
-
-        /* =========================
-           CARRITO
-        ========================= */
-
-        .cart-modal {
-            display: none;
-            position: fixed;
-            z-index: 2000;
-            inset: 0;
-            background: rgba(0,0,0,.65);
-            justify-content: flex-end;
-        }
-
-        .cart-modal.show {
-            display: flex;
-        }
-
-        .cart {
-            width: 420px;
-            max-width: 100%;
-            background: white;
-            height: 100%;
-            padding: 30px;
-            overflow-y: auto;
-            animation: slideIn .3s ease;
-        }
-
-        @keyframes slideIn {
-            from {
-                transform: translateX(100%);
-            }
-
-            to {
-                transform: translateX(0);
-            }
-        }
-
-        .cart-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 25px;
-        }
-
-        .close {
-            background: none;
-            border: none;
-            font-size: 28px;
-            cursor: pointer;
-        }
-
-        .cart-item {
-            display: flex;
-            gap: 12px;
-            border-bottom: 1px solid #eee;
-            padding: 15px 0;
-        }
-
-        .cart-item img {
-            width: 70px;
-            height: 70px;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-
-        .cart-item-info {
-            flex: 1;
-        }
-
-        .cart-item-info h4 {
-            margin-bottom: 5px;
-        }
-
-        .quantity {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            margin-top: 8px;
-        }
-
-        .quantity button {
-            width: 25px;
-            height: 25px;
-            border: none;
-            background: #eee;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .remove {
-            color: #e00000;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .cart-total {
-            margin-top: 25px;
-            padding-top: 20px;
-            border-top: 2px solid #111;
-            display: flex;
-            justify-content: space-between;
-            font-size: 22px;
-            font-weight: bold;
-        }
-
-        .empty-cart {
-            text-align: center;
-            color: #777;
-            padding: 50px 10px;
-        }
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            background: #101010;
-            color: white;
-            padding: 45px 20px;
-            text-align: center;
-        }
-
-        footer .logo {
-            margin-bottom: 15px;
-        }
-
-        footer p {
-            color: #aaa;
-        }
-
-        /* =========================
-           RESPONSIVE
-        ========================= */
-
-        @media(max-width: 900px) {
-
-            .products {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .hero h1 {
-                font-size: 42px;
-            }
-
-        }
-
-        @media(max-width: 600px) {
-
-            .navbar {
-                padding: 0 15px;
-            }
-
-            nav {
-                gap: 10px;
-            }
-
-            nav a {
-                font-size: 13px;
-            }
-
-            .cart-button {
-                padding: 10px;
-            }
-
-            .products {
-                grid-template-columns: 1fr;
-            }
-
-            .hero {
-                height: 450px;
-            }
-
-            .hero h1 {
-                font-size: 36px;
-            }
-
-            .hero p {
-                font-size: 17px;
-            }
-
-            .filters {
-                flex-direction: column;
-            }
-
-            .brands-container {
-                flex-direction: column;
-                gap: 20px;
-            }
-
-        }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- =========================
-     NAVBAR
-========================= -->
+<header class="navbar">
 
-<header>
-
-    <div class="navbar">
-
-        <div class="logo">
-            Football<span>Zone</span>
-        </div>
-
-        <nav>
-            <a onclick="showPage('home')">Inicio</a>
-            <a onclick="showPage('catalog')">Tenis</a>
-            <a onclick="showPage('contact')">Contacto</a>
-
-            <button class="cart-button" onclick="openCart()">
-                🛒 Carrito (<span id="cart-count">0</span>)
-            </button>
-        </nav>
-
+    <div class="logo">
+        FOOTBALL<span>ZONE</span>
     </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Tenis</a>
+        <a href="#marcas">Marcas</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="cart-button">
+        🛒 <span id="cart-count">0</span>
+    </a>
 
 </header>
 
 
-<!-- =========================
-     PAGINA INICIO
-========================= -->
+<section class="hero">
 
-<main id="home" class="page active">
+    <div class="hero-content">
 
-    <section class="hero">
+        <p class="hero-small">FOOTBALLZONE</p>
 
-        <div class="hero-content">
-
-            <h1>
-                Juega a otro <span>nivel</span>
-            </h1>
-
-            <p>
-                Encuentra los tenis de fútbol ideales para tu estilo de juego.
-            </p>
-
-            <button class="main-button" onclick="showPage('catalog')">
-                Ver tenis
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <section class="section">
-
-        <div class="section-title">
-
-            <h2>Tenis destacados</h2>
-
-            <p>
-                Los modelos favoritos para dominar la cancha.
-            </p>
-
-        </div>
-
-        <div class="products" id="featured-products"></div>
-
-    </section>
-
-
-    <section class="brands">
-
-        <div class="brands-container">
-
-            <div class="adidas">adidas</div>
-
-            <div class="nike">NIKE</div>
-
-            <div class="puma">PUMA</div>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<!-- =========================
-     CATALOGO
-========================= -->
-
-<main id="catalog" class="page">
-
-    <div class="catalog-header">
-
-        <h1>Todos los tenis</h1>
+        <h1>
+            JUEGA A<br>
+            OTRO NIVEL
+        </h1>
 
         <p>
-            Elige tus próximos tenis y prepárate para jugar.
+            Encuentra los tenis de fútbol perfectos
+            para dominar cada partido.
         </p>
 
-        <div class="filters">
-
-            <input
-                type="text"
-                id="search"
-                class="search"
-                placeholder="Buscar tenis..."
-                onkeyup="filterProducts()"
-            >
-
-            <select
-                id="brandFilter"
-                class="filter"
-                onchange="filterProducts()"
-            >
-
-                <option value="all">
-                    Todas las marcas
-                </option>
-
-                <option value="Adidas">
-                    Adidas
-                </option>
-
-                <option value="Nike">
-                    Nike
-                </option>
-
-                <option value="Puma">
-                    Puma
-                </option>
-
-            </select>
-
-        </div>
-
-        <div class="products" id="all-products"></div>
+        <a href="productos.html" class="main-button">
+            VER TENIS
+        </a>
 
     </div>
 
-</main>
+</section>
 
 
-<!-- =========================
-     CONTACTO
-========================= -->
+<section class="intro">
 
-<main id="contact" class="page">
+    <p class="section-label">TU JUEGO. TU ESTILO.</p>
 
-    <div class="contact-container">
+    <h2>
+        ELIGE TU<br>
+        <span>CAMINO</span>
+    </h2>
 
-        <div id="contact-form-box" class="contact-box">
+    <p class="intro-text">
+        Descubre los mejores modelos de Adidas, Nike y PUMA
+        para llevar tu juego al siguiente nivel.
+    </p>
 
-            <h1>Finaliza tu compra</h1>
+</section>
 
-            <p>
-                Completa tus datos para confirmar tu pedido.
-            </p>
 
-            <form id="purchase-form">
+<section class="brands" id="marcas">
 
-                <div class="form-group">
+    <a href="productos.html?marca=Adidas" class="brand-card adidas">
+        <div>
+            <p>PERFORMANCE</p>
+            <h3>ADIDAS</h3>
+            <span>VER COLECCIÓN →</span>
+        </div>
+    </a>
 
-                    <label>Nombre completo</label>
+    <a href="productos.html?marca=Nike" class="brand-card nike">
+        <div>
+            <p>FOOTBALL</p>
+            <h3>NIKE</h3>
+            <span>VER COLECCIÓN →</span>
+        </div>
+    </a>
 
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="Escribe tu nombre"
-                        required
-                    >
+    <a href="productos.html?marca=PUMA" class="brand-card puma">
+        <div>
+            <p>PLAY LOUD</p>
+            <h3>PUMA</h3>
+            <span>VER COLECCIÓN →</span>
+        </div>
+    </a>
 
-                </div>
+</section>
 
-                <div class="form-group">
 
-                    <label>Correo electrónico</label>
+<section class="featured">
 
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="correo@ejemplo.com"
-                        required
-                    >
+    <div class="section-title">
 
-                </div>
+        <div>
+            <p class="section-label">NUEVOS MODELOS</p>
 
-                <div class="form-group">
-
-                    <label>Dirección de entrega</label>
-
-                    <input
-                        type="text"
-                        id="address"
-                        placeholder="Calle, número, ciudad"
-                        required
-                    >
-
-                </div>
-
-                <div class="form-group">
-
-                    <label>Mensaje / indicaciones</label>
-
-                    <textarea
-                        placeholder="Alguna indicación para tu pedido..."
-                    ></textarea>
-
-                </div>
-
-                <button class="main-button" type="submit">
-                    Confirmar compra
-                </button>
-
-            </form>
-
+            <h2>
+                PRODUCTOS<br>
+                <span>DESTACADOS</span>
+            </h2>
         </div>
 
-
-        <!-- CONFIRMACION -->
-
-        <div id="confirmation" class="confirmation">
-
-            <div class="check">
-                ✓
-            </div>
-
-            <h2>¡Gracias por tu compra!</h2>
-
-            <p>
-                Tu pedido ha sido registrado correctamente.
-            </p>
-
-            <div class="order-number">
-                Número de pedido:
-                <span id="order-number"></span>
-            </div>
-
-            <p>
-                Te enviaremos la información de tu pedido
-                a tu correo electrónico.
-            </p>
-
-            <br>
-
-            <button
-                class="main-button"
-                onclick="showPage('home')"
-            >
-                Volver al inicio
-            </button>
-
-        </div>
+        <a href="productos.html" class="outline-button">
+            VER TODOS →
+        </a>
 
     </div>
 
-</main>
+    <div id="featured-products" class="product-grid"></div>
+
+</section>
 
 
-<!-- =========================
-     CARRITO
-========================= -->
+<section class="banner">
 
-<div id="cart-modal" class="cart-modal">
+    <div>
 
-    <div class="cart">
+        <p>NO IMPORTA TU POSICIÓN</p>
 
-        <div class="cart-header">
+        <h2>
+            ENCUENTRA<br>
+            TU PAR PERFECTO.
+        </h2>
 
-            <h2>Tu carrito</h2>
-
-            <button
-                class="close"
-                onclick="closeCart()"
-            >
-                ×
-            </button>
-
-        </div>
-
-        <div id="cart-items"></div>
-
-        <div class="cart-total">
-
-            <span>Total</span>
-
-            <span id="cart-total">
-                $0
-            </span>
-
-        </div>
-
-        <br>
-
-        <button
-            class="main-button"
-            style="width:100%"
-            onclick="goToCheckout()"
-        >
-            Finalizar compra
-        </button>
+        <a href="productos.html" class="main-button">
+            EXPLORAR TENIS
+        </a>
 
     </div>
 
-</div>
+</section>
 
-
-<!-- =========================
-     FOOTER
-========================= -->
 
 <footer>
 
-    <div class="logo">
-        Football<span>Zone</span>
+    <div class="footer-logo">
+        FOOTBALL<span>ZONE</span>
     </div>
 
     <p>
-        Tu pasión. Tu juego. Tus tenis.
+        Tu pasión. Tu juego. Tu nivel.
     </p>
 
-    <br>
+    <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
 
-    <p>
-        © 2026 FootballZone - Proyecto escolar
+    <p class="copyright">
+        © 2026 FootballZone
     </p>
 
 </footer>
 
 
-<script>
-
-    /* ==========================================
-       PRODUCTOS
-    ========================================== */
-
-    const products = [
-
-        {
-            id: 1,
-            name: "Adidas Predator Elite",
-            brand: "Adidas",
-            price: 3299,
-            image: "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 2,
-            name: "Adidas Copa Pure",
-            brand: "Adidas",
-            price: 2799,
-            image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 3,
-            name: "Adidas X Crazyfast",
-            brand: "Adidas",
-            price: 2999,
-            image: "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 4,
-            name: "Adidas F50 League",
-            brand: "Adidas",
-            price: 1899,
-            image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 5,
-            name: "Nike Mercurial Vapor",
-            brand: "Nike",
-            price: 3299,
-            image: "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 6,
-            name: "Nike Phantom GX",
-            brand: "Nike",
-            price: 3499,
-            image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 7,
-            name: "Nike Tiempo Legend",
-            brand: "Nike",
-            price: 2899,
-            image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 8,
-            name: "Nike Mercurial Superfly",
-            brand: "Nike",
-            price: 3999,
-            image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 9,
-            name: "Puma Future Ultimate",
-            brand: "Puma",
-            price: 3099,
-            image: "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 10,
-            name: "Puma Ultra Ultimate",
-            brand: "Puma",
-            price: 2999,
-            image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 11,
-            name: "Puma King Ultimate",
-            brand: "Puma",
-            price: 2799,
-            image: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&w=800&q=85"
-        },
-
-        {
-            id: 12,
-            name: "Puma Future Match",
-            brand: "Puma",
-            price: 1999,
-            image: "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=800&q=85"
-        }
-
-    ];
-
-
-    /* ==========================================
-       CARRITO
-    ========================================== */
-
-    let cart = [];
-
-
-    /* ==========================================
-       FORMATO PRECIO
-    ========================================== */
-
-    function formatPrice(price) {
-
-        return "$" + price.toLocaleString("es-MX");
-
-    }
-
-
-    /* ==========================================
-       CREAR TARJETA DE PRODUCTO
-    ========================================== */
-
-    function productCard(product) {
-
-        return `
-
-            <div class="product">
-
-                <div class="brand">
-                    ${product.brand}
-                </div>
-
-                <div class="product-image">
-
-                    <img
-                        src="${product.image}"
-                        alt="${product.name}"
-                    >
-
-                </div>
-
-                <div class="product-info">
-
-                    <h3>
-                        ${product.name}
-                    </h3>
-
-                    <p>
-                        Tenis de fútbol
-                        ${product.brand}
-                    </p>
-
-                    <div class="price">
-                        ${formatPrice(product.price)}
-                    </div>
-
-                    <button
-                        class="add-button"
-                        onclick="addToCart(${product.id})"
-                    >
-                        Agregar al carrito
-                    </button>
-
-                </div>
-
-            </div>
-
-        `;
-
-    }
-
-
-    /* ==========================================
-       PRODUCTOS DESTACADOS
-    ========================================== */
-
-    function loadFeatured() {
-
-        const container =
-            document.getElementById("featured-products");
-
-        const featured =
-            products.slice(0, 4);
-
-        container.innerHTML =
-            featured.map(productCard).join("");
-
-    }
-
-
-    /* ==========================================
-       TODOS LOS PRODUCTOS
-    ========================================== */
-
-    function loadProducts(list = products) {
-
-        const container =
-            document.getElementById("all-products");
-
-        if (list.length === 0) {
-
-            container.innerHTML = `
-                <p style="
-                    grid-column:1/-1;
-                    text-align:center;
-                    padding:50px;
-                    color:#777;
-                ">
-                    No encontramos tenis con esa búsqueda.
-                </p>
-            `;
-
-            return;
-        }
-
-        container.innerHTML =
-            list.map(productCard).join("");
-
-    }
-
-
-    /* ==========================================
-       BUSCADOR Y FILTRO
-    ========================================== */
-
-    function filterProducts() {
-
-        const search =
-            document
-                .getElementById("search")
-                .value
-                .toLowerCase();
-
-        const brand =
-            document
-                .getElementById("brandFilter")
-                .value;
-
-        const filtered =
-            products.filter(product => {
-
-                const matchesSearch =
-                    product.name
-                        .toLowerCase()
-                        .includes(search);
-
-                const matchesBrand =
-                    brand === "all" ||
-                    product.brand === brand;
-
-                return matchesSearch && matchesBrand;
-
-            });
-
-        loadProducts(filtered);
-
-    }
-
-
-    /* ==========================================
-       AGREGAR AL CARRITO
-    ========================================== */
-
-    function addToCart(id) {
-
-        const product =
-            products.find(p => p.id === id);
-
-        const existing =
-            cart.find(item => item.id === id);
-
-        if (existing) {
-
-            existing.quantity++;
-
-        } else {
-
-            cart.push({
-                ...product,
-                quantity: 1
-            });
-
-        }
-
-        updateCart();
-
-        alert(
-            product.name +
-            " fue agregado al carrito."
-        );
-
-    }
-
-
-    /* ==========================================
-       ACTUALIZAR CARRITO
-    ========================================== */
-
-    function updateCart() {
-
-        const container =
-            document.getElementById("cart-items");
-
-        const count =
-            document.getElementById("cart-count");
-
-        const totalElement =
-            document.getElementById("cart-total");
-
-
-        let totalItems = 0;
-        let totalPrice = 0;
-
-
-        if (cart.length === 0) {
-
-            container.innerHTML = `
-                <div class="empty-cart">
-                    <h3>Tu carrito está vacío 🛒</h3>
-
-                    <p>
-                        Agrega algunos tenis para comenzar.
-                    </p>
-                </div>
-            `;
-
-        } else {
-
-            container.innerHTML =
-                cart.map((item, index) => {
-
-                    totalItems += item.quantity;
-
-                    totalPrice +=
-                        item.price * item.quantity;
-
-                    return `
-
-                        <div class="cart-item">
-
-                            <img
-                                src="${item.image}"
-                                alt="${item.name}"
-                            >
-
-                            <div class="cart-item-info">
-
-                                <h4>
-                                    ${item.name}
-                                </h4>
-
-                                <p>
-                                    ${formatPrice(item.price)}
-                                </p>
-
-                                <div class="quantity">
-
-                                    <button
-                                        onclick="changeQuantity(${index}, -1)"
-                                    >
-                                        -
-                                    </button>
-
-                                    <span>
-                                        ${item.quantity}
-                                    </span>
-
-                                    <button
-                                        onclick="changeQuantity(${index}, 1)"
-                                    >
-                                        +
-                                    </button>
-
-                                </div>
-
-                            </div>
-
-                            <button
-                                class="remove"
-                                onclick="removeFromCart(${index})"
-                            >
-                                🗑
-                            </button>
-
-                        </div>
-
-                    `;
-
-                }).join("");
-
-        }
-
-
-        count.innerText =
-            totalItems;
-
-        totalElement.innerText =
-            formatPrice(totalPrice);
-
-    }
-
-
-    /* ==========================================
-       CAMBIAR CANTIDAD
-    ========================================== */
-
-    function changeQuantity(index, amount) {
-
-        cart[index].quantity += amount;
-
-        if (cart[index].quantity <= 0) {
-
-            cart.splice(index, 1);
-
-        }
-
-        updateCart();
-
-    }
-
-
-    /* ==========================================
-       ELIMINAR PRODUCTO
-    ========================================== */
-
-    function removeFromCart(index) {
-
-        cart.splice(index, 1);
-
-        updateCart();
-
-    }
-
-
-    /* ==========================================
-       ABRIR CARRITO
-    ========================================== */
-
-    function openCart() {
-
-        document
-            .getElementById("cart-modal")
-            .classList.add("show");
-
-        updateCart();
-
-    }
-
-
-    /* ==========================================
-       CERRAR CARRITO
-    ========================================== */
-
-    function closeCart() {
-
-        document
-            .getElementById("cart-modal")
-            .classList.remove("show");
-
-    }
-
-
-    /* ==========================================
-       CAMBIAR DE PAGINA
-    ========================================== */
-
-    function showPage(page) {
-
-        document
-            .querySelectorAll(".page")
-            .forEach(section => {
-
-                section.classList.remove("active");
-
-            });
-
-
-        document
-            .getElementById(page)
-            .classList.add("active");
-
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-
-    }
-
-
-    /* ==========================================
-       IR A CHECKOUT
-    ========================================== */
-
-    function goToCheckout() {
-
-        if (cart.length === 0) {
-
-            alert(
-                "Tu carrito está vacío."
-            );
-
-            return;
-
-        }
-
-        closeCart();
-
-        showPage("contact");
-
-    }
-
-
-    /* ==========================================
-       CONFIRMAR COMPRA
-    ========================================== */
-
-    document
-        .getElementById("purchase-form")
-        .addEventListener("submit", function(event) {
-
-            event.preventDefault();
-
-
-            const orderNumber =
-                "FZ-" +
-                Math.floor(
-                    100000 +
-                    Math.random() * 900000
-                );
-
-
-            document
-                .getElementById("order-number")
-                .innerText =
-                orderNumber;
-
-
-            document
-                .getElementById("contact-form-box")
-                .style.display = "none";
-
-
-            document
-                .getElementById("confirmation")
-                .classList.add("show");
-
-
-            cart = [];
-
-            updateCart();
-
-        });
-
-
-    /* ==========================================
-       INICIO
-    ========================================== */
-
-    loadFeatured();
-
-    loadProducts();
-
-    updateCart();
-
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
