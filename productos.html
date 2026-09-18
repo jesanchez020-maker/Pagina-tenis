@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Productos | FootballZone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+        FOOTBALL<span>ZONE</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html" class="active">Tenis</a>
+        <a href="index.html#marcas">Marcas</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="cart-button">
+        🛒 <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+
+<section class="products-header">
+
+    <p class="section-label">FOOTBALLZONE</p>
+
+    <h1>
+        TODOS LOS<br>
+        <span>TENIS</span>
+    </h1>
+
+    <p>
+        Elige entre Adidas, Nike y PUMA.
+    </p>
+
+</section>
+
+
+<section class="shop">
+
+    <div class="filters">
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Buscar tenis..."
+            >
+
+            🔍
+
+        </div>
+
+
+        <div class="filter-buttons">
+
+            <button class="filter active" data-brand="Todos">
+                TODOS
+            </button>
+
+            <button class="filter" data-brand="Adidas">
+                ADIDAS
+            </button>
+
+            <button class="filter" data-brand="Nike">
+                NIKE
+            </button>
+
+            <button class="filter" data-brand="PUMA">
+                PUMA
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div id="products" class="product-grid">
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-logo">
+        FOOTBALL<span>ZONE</span>
+    </div>
+
+    <p>
+        Tu pasión. Tu juego. Tu nivel.
+    </p>
+
+    <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 FootballZone
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
