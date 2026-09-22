@@ -21,7 +21,7 @@ const products = [
         brand: "Adidas",
         name: "F50 Club",
         price: 1699,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/117be454d9414c6abf94693bfaf158c1_9366/JR9055_22_model.jpg"
+        image: "https://www.nike.com/mx/t/tacos-de-futbol-para-terreno-firme-de-corte-low-nike-mercurial-vapor-17-elite-TX31XXVo"
     },
 
     {
