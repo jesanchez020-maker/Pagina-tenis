@@ -98,7 +98,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Elite",
         price: 7899,
-        image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/9781f26d-8e67-4b9c-b83d-83e0f20c0df8/VAPOR%2B17%2BPRO%2BFG%2BT.png"
+        image: "https://www.nike.com/mx/t/tacos-de-futbol-para-terrenos-multiples-de-corte-high-nike-mercurial-superfly-11-academy-CHu6feUa"
     },
 
     {
@@ -106,7 +106,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Academy",
         price: 2499,
-        image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/9781f26d-8e67-4b9c-b83d-83e0f20c0df8/VAPOR%2B17%2BPRO%2BFG%2BT.png"
+        image: "https://www.nike.com/mx/t/tacos-de-futbol-para-terrenos-multiples-de-corte-high-nike-mercurial-superfly-11-academy-CHu6feUa"
     },
 
     {
