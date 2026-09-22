@@ -175,84 +175,35 @@ const products = [
     // =========================
 
     {
-        id: 21,
-        brand: "PUMA",
-        name: "Ultra 6 Carbon",
-        price: 6999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_3_FOOTWEAR_Photography_BottomView_white.jpg?v=1781835177&width=416"
-    },
+        // 21 - Ultra 6 Carbon - Azul
+image: "https://images.puma.net/images/108512/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 22,
-        brand: "PUMA",
-        name: "Ultra 6 Pro",
-        price: 3999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_4_FOOTWEAR_Photography_SideMedialCenterView_white.jpg?v=1781835177&width=416"
-    },
+// 22 - Ultra 6 Match - Naranja
+image: "https://images.puma.net/images/108514/03/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 23,
-        brand: "PUMA",
-        name: "Ultra 6 Match",
-        price: 2999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_5_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1781835177&width=416"
-    },
+// 23 - Ultra 6 Match - Negro/Rojo
+image: "https://images.puma.net/images/108687/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 24,
-        brand: "PUMA",
-        name: "Ultra 6 Play",
-        price: 2199,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_6_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1781835177&width=416"
-    },
+// 24 - Ultra 6 Match MG - Rosa
+image: "https://images.puma.net/images/108972/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 25,
-        brand: "PUMA",
-        name: "Future 9 Play",
-        price: 2199,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_7_FOOTWEAR_Photography_DetailView1_white.jpg?v=1781835177&width=416"
-    },
+// 25 - Future 8 Play - Blanco/Rojo
+image: "https://images.puma.net/images/108602/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 26,
-        brand: "PUMA",
-        name: "Future 9 Match",
-        price: 2999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_8_FOOTWEAR_Photography_DetailView2_white.jpg?v=1781835177&width=416"
-    },
+// 26 - Future 8 Play Youth - Naranja
+image: "https://images.puma.net/images/108622/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 27,
-        brand: "PUMA",
-        name: "Future 9 Pro",
-        price: 4299,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_14_FOOTWEAR_Photography_HeroMrktngView1.jpg?v=1781835200&width=416"
-    },
+// 27 - King Ultimate - Negro/Rojo
+image: "https://images.puma.net/images/108821/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 28,
-        brand: "PUMA",
-        name: "King Ultimate",
-        price: 4999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_16_FOOTWEAR_Photography_HeroMrktngView5.jpg?v=1781835200&width=416"
-    },
+// 28 - King 20 Match - Blanco/Rosa/Azul
+image: "https://images.puma.net/images/108465/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 29,
-        brand: "PUMA",
-        name: "King Match",
-        price: 2999,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_18_FOOTWEAR_Photography_HeroMrktngView7.jpg?v=1781835200&width=416"
-    },
+// 29 - King 20 Match - Negro/Dorado
+image: "https://images.puma.net/images/108488/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
-    {
-        id: 30,
-        brand: "PUMA",
-        name: "King Pro",
-        price: 3799,
-        image: "https://soccerworld.com.au/cdn/shop/files/IH1892_19_FOOTWEAR_Photography_HeroMrktngView8.jpg?v=1781835200&width=416"
-    }
+// 30 - King 20 Match TT - Negro/Dorado
+image: "https://images.puma.net/images/108469/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
 
 ];
 
