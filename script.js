@@ -231,7 +231,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 MATCH",
         price: 1899,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-match-fusion-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048419/"
+        image: "https://www.dportenis.mx/Taquetes-Puma-Future-9-Match-FG-Hombre-108713-03?srsltid=AU7gw4WWTqUkwSSaRH1ocJ0MxMG89t-p0RqUEVZsurzVUR0oCT-0OUEZ"
     },
 
     {
@@ -239,7 +239,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 ULTIMATE",
         price: 6099,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-ultimate-low-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048409/"
+        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-future-9-ultimate-fg-para-mujer/108716?srsltid=AU7gw4U0rwkiWdFnnwpQKyII2gTHF7v-fb-TU1Ae5ti-LEFUWL21JTnm"
     },
 
     {
@@ -247,7 +247,7 @@ const products = [
         brand: "PUMA",
         name: "KING 20 MATCH",
         price: 2099,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://www.innovasport.com/c/tenis-de-f%C3%BAtbol-puma-king-20-match-fg-ag/p/000000000000402220?srsltid=AU7gw4XfUAS-ad_AbGsn6m_J4My4AnoG7N7Tv74J-9KO-W2XG-zKcjwI"
     },
 
     {
