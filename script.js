@@ -239,7 +239,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 ULTIMATE",
         price: 6099,
-        image: "https://www.prodirectsport.com/products/puma-kids-future-9-match-mid-turf-sugared-almond-puma-white-ultra-red-puma-black-junior-boots-4000456?cat=football"
+        image: "https://www.google.com/imgres?q=prodirectsoccer%20puma&imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0781%2F2900%2F4760%2Ffiles%2F4000461_main.jpg%3Fv%3D1789758608%26width%3D800&imgrefurl=https%3A%2F%2Fwww.prodirectsport.es%2Fcollections%2Fcoleccion-botas-puma-arrival%3Fsrsltid%3DAU7gw4UsOiL6-db1SzWvgQx0l1B4zRfo1AfbStTLMWHwPgxE3cMusJrp&docid=dgzJLSeCDVuU-M&tbnid=lGjfyDdAkXLskM&vet=12ahUKEwik37OCo4OXAxVx_8kDHe4HC7gQnPAOegQIPRAA..i&w=800&h=800&hcb=2&ved=2ahUKEwik37OCo4OXAxVx_8kDHe4HC7gQnPAOegQIPRAA"
     },
 
     {
@@ -247,7 +247,7 @@ const products = [
         brand: "PUMA",
         name: "KING 20 MATCH",
         price: 2099,
-        image: "https://www.prodirectsport.com/products/puma-future-9-ultimate-low-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048409?cat=football"
+        image: "https://www.google.com/imgres?q=prodirectsoccer%20puma&imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D3977868344229113458&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Fp%2FDc0Omp-jMsR%2F&docid=WmwuWDrXXLETUM&tbnid=w85qhL4WWt1MgM&vet=12ahUKEwik37OCo4OXAxVx_8kDHe4HC7gQnPAOegUIvAEQAA..i&w=1080&h=1350&hcb=2&itg=1&ved=2ahUKEwik37OCo4OXAxVx_8kDHe4HC7gQnPAOegUIvAEQAA"
     },
 
     {
