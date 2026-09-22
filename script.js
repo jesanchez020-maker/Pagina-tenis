@@ -176,7 +176,7 @@ const products = [
 
     {
         id: 21,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Ultra 6 Carbon",
         price: 6999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_3_FOOTWEAR_Photography_BottomView_white.jpg?v=1781835177&width=416"
@@ -184,7 +184,7 @@ const products = [
 
     {
         id: 22,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Ultra 6 Pro",
         price: 3999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_4_FOOTWEAR_Photography_SideMedialCenterView_white.jpg?v=1781835177&width=416"
@@ -192,7 +192,7 @@ const products = [
 
     {
         id: 23,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Ultra 6 Match",
         price: 2999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_5_FOOTWEAR_Photography_FrontLateralTopView_white.jpg?v=1781835177&width=416"
@@ -200,7 +200,7 @@ const products = [
 
     {
         id: 24,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Ultra 6 Play",
         price: 2199,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_6_FOOTWEAR_Photography_BackLateralTopView_white.jpg?v=1781835177&width=416"
@@ -208,7 +208,7 @@ const products = [
 
     {
         id: 25,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Future 9 Play",
         price: 2199,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_7_FOOTWEAR_Photography_DetailView1_white.jpg?v=1781835177&width=416"
@@ -216,7 +216,7 @@ const products = [
 
     {
         id: 26,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Future 9 Match",
         price: 2999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_8_FOOTWEAR_Photography_DetailView2_white.jpg?v=1781835177&width=416"
@@ -224,7 +224,7 @@ const products = [
 
     {
         id: 27,
-        brand: "Puma",
+        brand: "PUMA",
         name: "Future 9 Pro",
         price: 4299,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_14_FOOTWEAR_Photography_HeroMrktngView1.jpg?v=1781835200&width=416"
@@ -232,7 +232,7 @@ const products = [
 
     {
         id: 28,
-        brand: "Puma",
+        brand: "PUMA",
         name: "King Ultimate",
         price: 4999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_16_FOOTWEAR_Photography_HeroMrktngView5.jpg?v=1781835200&width=416"
@@ -240,7 +240,7 @@ const products = [
 
     {
         id: 29,
-        brand: "Puma",
+        brand: "PUMA",
         name: "King Match",
         price: 2999,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_18_FOOTWEAR_Photography_HeroMrktngView7.jpg?v=1781835200&width=416"
@@ -248,7 +248,7 @@ const products = [
 
     {
         id: 30,
-        brand: "Puma",
+        brand: "PUMA",
         name: "King Pro",
         price: 3799,
         image: "https://soccerworld.com.au/cdn/shop/files/IH1892_19_FOOTWEAR_Photography_HeroMrktngView8.jpg?v=1781835200&width=416"
