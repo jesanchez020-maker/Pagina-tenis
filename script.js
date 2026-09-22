@@ -183,7 +183,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 CARBON FG",
         price: 6999,
-        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-unisex-ultra-6-carbon-dare-to-fg/108754?srsltid=AU7gw4U721nhglNhi6uYjT_PT1RhBed5-FfNkmjyhc0Cm5aRxQ_Fa9QS"
+        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-unisex-ultra-6-carbon-dare-to-fg/108754?srsltid=AU7gw4V-ZvvgZCDWUfQu5Z3BKVoHGa2XvC5TQTB1GjvjUJhl5IHJbg9l"
     },
 
     {
@@ -191,7 +191,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 PRO FG/AG",
         price: 3399,
-        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-ultra-6-pro-fg-ag-unisex/108551?srsltid=AU7gw4UO2ppGCAD_NyqO37gJA-jPHoaiYt4IsWFdzNlU1tBEubGfYUCt"
+        image: "https://mx.puma.com/mx/es/pd/tacos-de-futbol-ultra-6-pro-fg-ag-para-adolescentes/108698.html?srsltid=AU7gw4VXUHFyWAVQC8-Tj5g33jon3bzq2COrSCU5_XEtA2XtXTCr1mt5"
     },
 
     {
@@ -215,7 +215,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA NITRO 7 MATCH",
         price: 2199,
-        image: "https://www.forumsport.com/images/puma-botas-de-futbol-cesped-artificial-ultra-6-match-mg-az-lateral-exterior-1001048040-500x500-f"
+        image: "https://www.google.com/imgres?q=ULTRA%20NITRO%207%20MATCH&imgurl=https%3A%2F%2Fsp203.liverpool.com.mx%2Fi%2F1202400597.jpg&imgrefurl=https%3A%2F%2Fwww.liverpool.com.mx%2Ftienda%2Fpdp%2Ftenis-ultra-nitro-7-match-fgag-para-futbol-de-hombre%2F1202400589&docid=O-IUJJK1g9Q_pM&tbnid=zF7OBmVJiAjuGM&vet=12ahUKEwiDtMfD44KXAxW1DkQIHRZYLnoQnPAOegQITBAA..i&w=940&h=1215&hcb=2&ved=2ahUKEwiDtMfD44KXAxW1DkQIHRZYLnoQnPAOegQITBAA"
     },
 
     {
@@ -223,7 +223,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 PLAY",
         price: 1299,
-        image: "https://www.google.com/imgres?q=FUTURE%209%20PLAY&imgurl=https%3A%2F%2Fsp101.liverpool.com.mx%2Fi%2F1199918423-future-9-play-futbol-puma-ni.jpg&imgrefurl=https%3A%2F%2Fwww.liverpool.com.mx%2Ftienda%2Fpdp%2Ffuture-9-play-para-f-tbol-de-ni%25C3%25B1o%2F999674130302&docid=_PIna2Gtzhh1LM&tbnid=RzACFv5IIjeYWM&vet=12ahUKEwiy9aDw4IKXAxWkLkQIHdsCEocQnPAOegQIPBAA..i&w=940&h=1215&hcb=2&itg=1&ved=2ahUKEwiy9aDw4IKXAxWkLkQIHdsCEocQnPAOegQIPBAA"
+        image: "https://www.liverpool.com.mx/tienda/pdp/future-9-play-para-f-tbol-de-ni%C3%B1o/999674130302"
     },
 
     {
