@@ -382,7 +382,6 @@ function createProductCard(product) {
                     src="${product.image}"
                     alt="${product.brand} ${product.name}"
                     loading="lazy"
-                    onerror';"
                 >
 
             </div>
@@ -440,8 +439,9 @@ function renderProducts(
         products.filter(product => {
 
             const correctBrand =
-                brand === "Todos" ||
-                product.brand === brand;
+                brand.toLowerCase().trim() === "todos" ||
+                product.brand.toLowerCase().trim() ===
+                brand.toLowerCase().trim();
 
 
             const text =
