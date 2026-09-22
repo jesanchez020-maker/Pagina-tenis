@@ -174,38 +174,85 @@ const products = [
     // PUMA
     // =========================
 
-    {
-        // 21 - Ultra 6 Carbon - Azul
-image: "https://images.puma.net/images/108512/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+   {
+    id: 21,
+    brand: "PUMA",
+    name: "Ultra 6 Carbon",
+    price: 6999,
+    image: "https://images.puma.net/images/108512/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 22 - Ultra 6 Match - Naranja
-image: "https://images.puma.net/images/108514/03/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 22,
+    brand: "PUMA",
+    name: "Ultra 6 Match",
+    price: 4999,
+    image: "https://images.puma.net/images/108514/03/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 23 - Ultra 6 Match - Negro/Rojo
-image: "https://images.puma.net/images/108687/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 23,
+    brand: "PUMA",
+    name: "Ultra 6 Match Negro",
+    price: 4999,
+    image: "https://images.puma.net/images/108687/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 24 - Ultra 6 Match MG - Rosa
-image: "https://images.puma.net/images/108972/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 24,
+    brand: "PUMA",
+    name: "Ultra 6 Match MG Rosa",
+    price: 4799,
+    image: "https://images.puma.net/images/108972/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 25 - Future 8 Play - Blanco/Rojo
-image: "https://images.puma.net/images/108602/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 25,
+    brand: "PUMA",
+    name: "Future 8 Play",
+    price: 3299,
+    image: "https://images.puma.net/images/108602/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 26 - Future 8 Play Youth - Naranja
-image: "https://images.puma.net/images/108622/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 26,
+    brand: "PUMA",
+    name: "Future 8 Play Youth",
+    price: 2999,
+    image: "https://images.puma.net/images/108622/01/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 27 - King Ultimate - Negro/Rojo
-image: "https://images.puma.net/images/108821/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 27,
+    brand: "PUMA",
+    name: "King Ultimate",
+    price: 5999,
+    image: "https://images.puma.net/images/108821/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 28 - King 20 Match - Blanco/Rosa/Azul
-image: "https://images.puma.net/images/108465/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 28,
+    brand: "PUMA",
+    name: "King 20 Match Blanco",
+    price: 3999,
+    image: "https://images.puma.net/images/108465/05/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 29 - King 20 Match - Negro/Dorado
-image: "https://images.puma.net/images/108488/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+{
+    id: 29,
+    brand: "PUMA",
+    name: "King 20 Match Negro",
+    price: 3999,
+    image: "https://images.puma.net/images/108488/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
-// 30 - King 20 Match TT - Negro/Dorado
-image: "https://images.puma.net/images/108469/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
-
-];
+{
+    id: 30,
+    brand: "PUMA",
+    name: "King 20 Match TT",
+    price: 3799,
+    image: "https://images.puma.net/images/108469/02/sv01/fnd/MEX/w/600/h/600/fmt/png/bg/%23FAFAFA"
+},
 
 
 /* =========================================
