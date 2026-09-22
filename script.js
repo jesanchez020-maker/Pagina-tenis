@@ -106,7 +106,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Academy",
         price: 2499,
-        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
+        image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/9781f26d-8e67-4b9c-b83d-83e0f20c0df8/VAPOR%2B17%2BPRO%2BFG%2BT.png"
     },
 
     {
@@ -114,7 +114,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Club",
         price: 1899,
-        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
+        image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/9781f26d-8e67-4b9c-b83d-83e0f20c0df8/VAPOR%2B17%2BPRO%2BFG%2BT.png"
     },
 
     {
@@ -183,7 +183,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 CARBON FG",
         price: 6999,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-unisex-ultra-6-carbon-dare-to-fg/108754?srsltid=AU7gw4U721nhglNhi6uYjT_PT1RhBed5-FfNkmjyhc0Cm5aRxQ_Fa9QS"
     },
 
     {
@@ -191,7 +191,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 PRO FG/AG",
         price: 3399,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://us.puma.com/us/es/pd/tacos-de-futbol-ultra-6-pro-fg-ag-unisex/108551?srsltid=AU7gw4UO2ppGCAD_NyqO37gJA-jPHoaiYt4IsWFdzNlU1tBEubGfYUCt"
     },
 
     {
@@ -223,7 +223,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 PLAY",
         price: 1299,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-match-fusion-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048419/"
+        image: "https://www.google.com/imgres?q=FUTURE%209%20PLAY&imgurl=https%3A%2F%2Fsp101.liverpool.com.mx%2Fi%2F1199918423-future-9-play-futbol-puma-ni.jpg&imgrefurl=https%3A%2F%2Fwww.liverpool.com.mx%2Ftienda%2Fpdp%2Ffuture-9-play-para-f-tbol-de-ni%25C3%25B1o%2F999674130302&docid=_PIna2Gtzhh1LM&tbnid=RzACFv5IIjeYWM&vet=12ahUKEwiy9aDw4IKXAxWkLkQIHdsCEocQnPAOegQIPBAA..i&w=940&h=1215&hcb=2&itg=1&ved=2ahUKEwiy9aDw4IKXAxWkLkQIHdsCEocQnPAOegQIPBAA"
     },
 
     {
