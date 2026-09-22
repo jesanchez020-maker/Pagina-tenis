@@ -1,67 +1,63 @@
-/* =========================================
-   FOOTBALLZONE - PRODUCTOS
-========================================= */
-
 const products = [
 
-    /* ==============================
+    /* =========================
        ADIDAS
-    ============================== */
+    ========================= */
 
     {
         id: 1,
         brand: "Adidas",
-        name: "F50 Elite",
+        name: "F50 Elite FG",
         price: 7499,
-        image: "https://soccerworld.com.au/cdn/shop/files/JH7617_1_FOOTWEAR_Photography_SideLateralCenterView_white.jpg?v=1747024225"
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/9e2e1e5e0d5e4a6bb6c3afc7b2d2f6d3_9366/JH7617_22_model.jpg"
     },
 
     {
         id: 2,
         brand: "Adidas",
-        name: "F50 Club",
-        price: 1699,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/117be454d9414c6abf94693bfaf158c1_9366/JR9055_22_model.jpg"
+        name: "F50 League",
+        price: 2199,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/1c5e4a8e9b7c4f5c9d7b4f2e8a1c3d6b_9366/JI0990_22_model.jpg"
     },
 
     {
         id: 3,
         brand: "Adidas",
-        name: "F50 Club Messi",
-        price: 1799,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/117be454d9414c6abf94693bfaf158c1_9366/JR9055_22_model.jpg"
+        name: "F50 League Messi",
+        price: 2299,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/7f1b4f5d3a6e4a8c9d2e5f7b1c3a6d8e_9366/JI0991_22_model.jpg"
     },
 
     {
         id: 4,
         brand: "Adidas",
-        name: "F50 Hyperfast Elite",
-        price: 7499,
-        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
+        name: "F50 Pro TF",
+        price: 2999,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/2a7d5e9c1b4f6a8e3d2c7b5f9e1a4d6c_9366/JI0040_22_model.jpg"
     },
 
     {
         id: 5,
         brand: "Adidas",
-        name: "F50 Hyperfast Club",
+        name: "F50 Club FG",
         price: 1699,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/117be454d9414c6abf94693bfaf158c1_9366/JR9055_22_model.jpg"
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/4b8e2d6f1a9c3e5b7d4f8a2c6e1b9d3f_9366/JR9055_22_model.jpg"
     },
 
     {
         id: 6,
         brand: "Adidas",
-        name: "F50 Sparkfusion Elite",
-        price: 6999,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/117be454d9414c6abf94693bfaf158c1_9366/JR9055_22_model.jpg"
+        name: "F50 Hyperfast League TF",
+        price: 2249,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/8d3f6b1a5c9e2d7f4b8a1c6e3f5d9b2a_9366/KJ6711_22_model.jpg"
     },
 
     {
         id: 7,
         brand: "Adidas",
-        name: "Copa Pure 3 Elite",
+        name: "Copa Pure Elite",
         price: 6999,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/ID9037_22_model.jpg"
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/6a2f9d4b7c1e5f8a3d6b9e2c4f7a1d5e_9366/ID9037_22_model.jpg"
     },
 
     {
@@ -69,7 +65,7 @@ const products = [
         brand: "Adidas",
         name: "Copa Pure Club",
         price: 1799,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/ID9037_22_model.jpg"
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/3e7b1c5a9d2f6e4b8a1c7d5f9e3b6a2d_9366/ID9040_22_model.jpg"
     },
 
     {
@@ -77,28 +73,28 @@ const products = [
         brand: "Adidas",
         name: "Predator Elite",
         price: 7499,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/IF8868_22_model.jpg"
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/5c8e2a1d7f4b9e3c6a2d8f1b5e7c4a9d_9366/IF8868_22_model.jpg"
     },
 
     {
         id: 10,
         brand: "Adidas",
-        name: "Predator Elite Sin Agujetas",
-        price: 7499,
-        image: "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/IF8868_22_model.jpg"
+        name: "Predator League",
+        price: 2499,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/1d6f3a8c5e9b2d7a4f1c6e8b3a5d9f2c_9366/IF5444_22_model.jpg"
     },
 
 
-    /* ==============================
+    /* =========================
        NIKE
-    ============================== */
+    ========================= */
 
     {
         id: 11,
         brand: "Nike",
         name: "Mercurial Superfly 11 Elite",
-        price: 7899,
-        image: "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/9781f26d-8e67-4b9c-b83d-83e0f20c0df8/VAPOR%2B17%2BPRO%2BFG%2BT.png"
+        price: 7599,
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1dcc9cca-39b5-4463-8af4-94b5a9ec2961/ZM+SUPERFLY+11+ELITE+FG+KM.png"
     },
 
     {
@@ -106,7 +102,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Academy",
         price: 2499,
-        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/81dca9e9-4bc4-4162-9519-5e26eda94b8b/SUPERFLY+11+ACADEMY+TF+KM.png"
     },
 
     {
@@ -114,15 +110,15 @@ const products = [
         brand: "Nike",
         name: "Mercurial Superfly 11 Club",
         price: 1899,
-        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e0c70da7-5696-4683-876f-7efa10fbe21a/SUPERFLY+11+CLUB+TF.png"
     },
 
     {
         id: 14,
         brand: "Nike",
         name: "Mercurial Vapor 17 Elite",
-        price: 6999,
-        image: "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dwed7c0acd/images/hi-res/198729745910_5_20260528-mrtPeru.jpg"
+        price: 6699,
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4d4f9f52-4a6c-4d98-8b2f-6a3c4b9f6a11/VAPOR+17+ELITE+FG.png"
     },
 
     {
@@ -130,7 +126,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Vapor 17 Pro",
         price: 3699,
-        image: "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dwed7c0acd/images/hi-res/198729745910_5_20260528-mrtPeru.jpg"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b8a2d6c-5f4e-4a7b-8c1d-3e6f9a2b5c7d/VAPOR+17+PRO+FG.png"
     },
 
     {
@@ -138,7 +134,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Vapor 17 Academy",
         price: 2399,
-        image: "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dwed7c0acd/images/hi-res/198729745910_5_20260528-mrtPeru.jpg"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6f2e4a8b-9c1d-4e7a-8b3f-5d6a2c9e1f4b/VAPOR+17+ACADEMY+FG.png"
     },
 
     {
@@ -146,7 +142,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Vapor 17 Club",
         price: 1699,
-        image: "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dwed7c0acd/images/hi-res/198729745910_5_20260528-mrtPeru.jpg"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3a8c5e1d-7f2b-4d6a-9e1c-5b8f3a7d2e6c/VAPOR+17+CLUB+FG.png"
     },
 
     {
@@ -154,7 +150,7 @@ const products = [
         brand: "Nike",
         name: "Phantom 6 High Elite",
         price: 6599,
-        image: "https://cdn.sportshop.com/catalog/product/1500/1500/2/1/214845_1.jpg?v=2c2a8efab8806ce8"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/997638b7-170b-4072-97d2-1294d2117fac/PHANTOM+6+HIGH+ELITE+FG+T.png"
     },
 
     {
@@ -162,7 +158,7 @@ const products = [
         brand: "Nike",
         name: "Phantom 6 Low Pro",
         price: 3199,
-        image: "https://cdn.sportshop.com/catalog/product/1500/1500/2/1/214845_1.jpg?v=2c2a8efab8806ce8"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ab0b9f75-7ac4-4da1-99e6-72ddaf8dc883/REACTX+PHANTOM+6+LOW+PRO+TF+T.png"
     },
 
     {
@@ -170,28 +166,28 @@ const products = [
         brand: "Nike",
         name: "Phantom 6 Low Academy",
         price: 2199,
-        image: "https://cdn.sportshop.com/catalog/product/1500/1500/2/1/214845_1.jpg?v=2c2a8efab8806ce8"
+        image: "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_386,c_limit/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da5b33e2-4641-4325-8bc5-45cde328254c/PHANTOM+6+LOW+CLUB+TF+T.png"
     },
 
 
-    /* ==============================
+    /* =========================
        PUMA
-    ============================== */
+    ========================= */
 
     {
         id: 21,
         brand: "PUMA",
         name: "ULTRA 6 CARBON FG",
         price: 6999,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108685/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
         id: 22,
         brand: "PUMA",
         name: "ULTRA 6 PRO FG/AG",
-        price: 3399,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        price: 3299,
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108688/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -199,7 +195,7 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 MATCH MG",
         price: 2149,
-        image: "https://www.forumsport.com/images/puma-botas-de-futbol-cesped-artificial-ultra-6-match-mg-az-lateral-exterior-1001048040-500x500-f"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108692/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -207,15 +203,15 @@ const products = [
         brand: "PUMA",
         name: "ULTRA 6 PLAY FG/AG",
         price: 1299,
-        image: "https://www.forumsport.com/images/puma-botas-de-futbol-cesped-artificial-ultra-6-match-mg-az-lateral-exterior-1001048040-500x500-f"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108696/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
         id: 25,
         brand: "PUMA",
-        name: "ULTRA NITRO 7 MATCH",
-        price: 2199,
-        image: "https://www.forumsport.com/images/puma-botas-de-futbol-cesped-artificial-ultra-6-match-mg-az-lateral-exterior-1001048040-500x500-f"
+        name: "ULTRA 6 PLAY IT",
+        price: 1199,
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108699/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -223,7 +219,7 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 PLAY",
         price: 1299,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-match-fusion-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048419/"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108900/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -231,15 +227,15 @@ const products = [
         brand: "PUMA",
         name: "FUTURE 9 MATCH",
         price: 1899,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-match-fusion-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048419/"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108901/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
         id: 28,
         brand: "PUMA",
-        name: "FUTURE 9 ULTIMATE",
-        price: 6099,
-        image: "https://www.prodirectsport.com/soccer/p/puma-future-9-ultimate-low-firm-ground-puma-red-puma-white-glowing-red-puma-black-adult-boots-1048409/"
+        name: "FUTURE 9 PRO",
+        price: 3299,
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108902/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -247,7 +243,7 @@ const products = [
         brand: "PUMA",
         name: "KING 20 MATCH",
         price: 2099,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108835/03/sv01/fnd/PNA/fmt/png"
     },
 
     {
@@ -255,7 +251,7 @@ const products = [
         brand: "PUMA",
         name: "KING ULTIMATE",
         price: 5999,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/108807/03/sv01/fnd/PNA/fmt/png"
     }
 
 ];
@@ -271,10 +267,6 @@ let cart =
     ) || [];
 
 
-/* =========================================
-   PRECIO
-========================================= */
-
 function formatPrice(price) {
 
     return price.toLocaleString("es-MX", {
@@ -285,10 +277,6 @@ function formatPrice(price) {
 }
 
 
-/* =========================================
-   CONTADOR
-========================================= */
-
 function updateCartCount() {
 
     const count =
@@ -296,21 +284,15 @@ function updateCartCount() {
 
     if (!count) return;
 
-    const total =
+    count.textContent =
         cart.reduce(
-            (sum, product) =>
-                sum + product.quantity,
+            (total, item) =>
+                total + item.quantity,
             0
         );
 
-    count.textContent = total;
-
 }
 
-
-/* =========================================
-   GUARDAR
-========================================= */
 
 function saveCart() {
 
@@ -324,10 +306,6 @@ function saveCart() {
 }
 
 
-/* =========================================
-   AGREGAR
-========================================= */
-
 function addToCart(id) {
 
     const product =
@@ -337,12 +315,10 @@ function addToCart(id) {
 
     if (!product) return;
 
-
     const existing =
         cart.find(
             item => item.id === id
         );
-
 
     if (existing) {
 
@@ -357,21 +333,19 @@ function addToCart(id) {
 
     }
 
-
     saveCart();
-
 
     alert(
         "✓ " +
         product.name +
-        " fue agregado al carrito"
+        " agregado al carrito"
     );
 
 }
 
 
 /* =========================================
-   TARJETA
+   TARJETA DE PRODUCTO
 ========================================= */
 
 function createProductCard(product) {
@@ -386,11 +360,10 @@ function createProductCard(product) {
                     src="${product.image}"
                     alt="${product.brand} ${product.name}"
                     loading="lazy"
-                    onerror="this.src='https://commons.wikimedia.org/wiki/Special:Redirect/file/Football_boots_(3293104040).jpg';"
+                    onerror="this.style.display='none';"
                 >
 
             </div>
-
 
             <div class="product-info">
 
@@ -398,16 +371,13 @@ function createProductCard(product) {
                     ${product.brand}
                 </div>
 
-
                 <h3 class="product-name">
                     ${product.name}
                 </h3>
 
-
                 <div class="product-price">
                     ${formatPrice(product.price)}
                 </div>
-
 
                 <button
                     class="add-cart"
@@ -439,66 +409,27 @@ function renderProducts(
 
     if (!container) return;
 
-
     const filtered =
         products.filter(product => {
 
-            const correctBrand =
+            const brandOK =
                 brand === "Todos" ||
                 product.brand === brand;
 
-
-            const text =
+            const searchOK =
                 (
-                    product.brand +
+                    product.name +
                     " " +
-                    product.name
-                ).toLowerCase();
-
-
-            const correctSearch =
-                text.includes(
+                    product.brand
+                )
+                .toLowerCase()
+                .includes(
                     search.toLowerCase()
                 );
 
-
-            return (
-                correctBrand &&
-                correctSearch
-            );
+            return brandOK && searchOK;
 
         });
-
-
-    if (filtered.length === 0) {
-
-        container.innerHTML = `
-
-            <div style="
-                grid-column:1/-1;
-                text-align:center;
-                padding:80px;
-            ">
-
-                <h2>
-                    No encontramos ese tenis.
-                </h2>
-
-                <p style="
-                    color:#888;
-                    margin-top:10px;
-                ">
-                    Intenta con otro nombre o marca.
-                </p>
-
-            </div>
-
-        `;
-
-        return;
-
-    }
-
 
     container.innerHTML =
         filtered
@@ -521,7 +452,6 @@ function renderFeatured() {
 
     if (!container) return;
 
-
     container.innerHTML =
         products
             .slice(0, 8)
@@ -543,7 +473,6 @@ function setupFilters() {
     const search =
         document.getElementById("search");
 
-
     let currentBrand = "Todos";
 
 
@@ -553,22 +482,14 @@ function setupFilters() {
             "click",
             () => {
 
-                buttons.forEach(
-                    btn =>
-                        btn.classList.remove(
-                            "active"
-                        )
+                buttons.forEach(btn =>
+                    btn.classList.remove("active")
                 );
 
-
-                button.classList.add(
-                    "active"
-                );
-
+                button.classList.add("active");
 
                 currentBrand =
                     button.dataset.brand;
-
 
                 renderProducts(
                     currentBrand,
@@ -605,40 +526,30 @@ function setupFilters() {
             window.location.search
         );
 
-
     const brand =
         params.get("marca");
 
 
     if (
         brand &&
-        ["Adidas", "Nike", "PUMA"]
-            .includes(brand)
+        ["Adidas", "Nike", "PUMA"].includes(brand)
     ) {
 
         currentBrand = brand;
 
-
         buttons.forEach(button => {
 
-            button.classList.remove(
-                "active"
-            );
-
+            button.classList.remove("active");
 
             if (
-                button.dataset.brand ===
-                brand
+                button.dataset.brand === brand
             ) {
 
-                button.classList.add(
-                    "active"
-                );
+                button.classList.add("active");
 
             }
 
         });
-
 
         renderProducts(
             brand,
@@ -666,7 +577,6 @@ function renderOrder() {
             "order-total"
         );
 
-
     if (
         !container ||
         !totalElement
@@ -677,26 +587,20 @@ function renderOrder() {
 
         container.innerHTML = `
 
-            <div style="
-                color:#888;
-                padding:30px 0;
-            ">
-
+            <p style="color:#888;">
                 Tu carrito está vacío.
+            </p>
 
-                <br><br>
+            <br>
 
-                <a
-                    href="productos.html"
-                    style="color:#b7ff00;"
-                >
-                    VER TENIS
-                </a>
-
-            </div>
+            <a
+                href="productos.html"
+                style="color:#b7ff00;"
+            >
+                VER TENIS
+            </a>
 
         `;
-
 
         totalElement.textContent =
             formatPrice(0);
@@ -716,7 +620,6 @@ function renderOrder() {
                 item.price *
                 item.quantity;
 
-
             total += subtotal;
 
 
@@ -730,15 +633,13 @@ function renderOrder() {
                             ${item.name}
                         </div>
 
-                        <small style="
-                            color:#777;
-                        ">
+                        <small style="color:#777;">
                             ${item.brand}
-                            · ${item.quantity}
+                            · Cantidad:
+                            ${item.quantity}
                         </small>
 
                     </div>
-
 
                     <div class="order-item-price">
                         ${formatPrice(subtotal)}
@@ -758,7 +659,7 @@ function renderOrder() {
 
 
 /* =========================================
-   COMPRA
+   CHECKOUT
 ========================================= */
 
 function setupCheckout() {
@@ -767,7 +668,6 @@ function setupCheckout() {
         document.getElementById(
             "checkout-form"
         );
-
 
     if (!form) return;
 
@@ -795,14 +695,10 @@ function setupCheckout() {
                     "success-message"
                 );
 
-
-            success.classList.add(
-                "show"
-            );
+            success.classList.add("show");
 
 
             cart = [];
-
 
             saveCart();
 
@@ -813,7 +709,7 @@ function setupCheckout() {
 
 
 /* =========================================
-   INICIAR
+   INICIO
 ========================================= */
 
 document.addEventListener(
