@@ -122,7 +122,7 @@ const products = [
         brand: "Nike",
         name: "Mercurial Vapor 17 Elite",
         price: 6999,
-        image: "https://www.nike.com.pe/on/demandware.static/-/Sites-catalog-equinox/default/dwed7c0acd/images/hi-res/198729745910_5_20260528-mrtPeru.jpg"
+        image: "https://www.futbolemotion.com/imagesarticulos/150000/1500000_0_1.jpg"
     },
 
     {
