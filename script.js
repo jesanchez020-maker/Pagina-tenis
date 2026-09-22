@@ -386,7 +386,7 @@ function createProductCard(product) {
                     src="${product.image}"
                     alt="${product.brand} ${product.name}"
                     loading="lazy"
-                    onerror="this.src='https://commons.wikimedia.org/wiki/Special:Redirect/file/Football_boots_(3293104040).jpg';"
+                    onerror';"
                 >
 
             </div>
