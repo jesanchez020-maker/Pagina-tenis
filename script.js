@@ -255,7 +255,7 @@ const products = [
         brand: "PUMA",
         name: "KING ULTIMATE",
         price: 5999,
-        image: "https://www.prodirectsport.com/soccer/p/puma-ultra-6-pro-fg-ag-puma-black-fizzy-light-green-terrain-adult-boots-1035470/"
+        image: "https://www.prodirectsport.com/cdn/shop/files/1035470_main.jpg?v=1789124429&width=1200"
     }
 
 ];
